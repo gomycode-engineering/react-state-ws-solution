@@ -6,9 +6,8 @@ ItemList
 
 ## Requirement
 
-Create a project using create-react-app.
-Transform the App.js into a class based component
-Implement a state for this class containing a Person ={ fullName,bio, imgSrc, profession} and a boolean show
-Add a button that toggle the show state and when the state show is true the person profile appear
-Implement a life cycle method that when the component render it increment a timer state every second
-hint :use the setInterval method
+Create a component Todo
+Create a component TodoList
+The state should be in the app.js
+Passing the state to the child (TodoList) for rendering
+Create the component AddTask (it manipulate the state in the app)
