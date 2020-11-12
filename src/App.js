@@ -37,7 +37,7 @@ class App extends Component {
     return (
       <div className='container'>
         <div className='row justify-content-center'>
-          <h1>Here is a list of what you shoud do</h1>
+          <h1>Here is a list of what you should do</h1>
         </div>
         <TodoList
           todos={this.state.tasks}
